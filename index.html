@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
+    <div id="div1"></div>
 	<div class="u-poster">
 		<div class="u-poster-bd">
 			<div class="u-poster-editor">
 				<div class="u-poster-input">
+
 					<textarea id="u-input"></textarea>
+                    <ul id="contact" class="list-group">
 				</div>
 			</div>
 			<div class="u-poster-attach-side">
@@ -38,6 +42,14 @@
 	<div class="u-show"></div>
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.qqFace.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+    <script>
+        var textarea = document.getElementById("u-input"); //textarea
+        var contact = document.getElementById("contact"); //列表ul
+        var jsonurl = 'contact.json'; //列表json的url
+        var allLeft = 30; //修正列表位置，由于margin padding border产生的误差
+        var allTop = 30; //修正列表位置，由于margin padding border产生的误差
+        var textareaWith = 700; //用于自动换行
+        at(textarea, contact, jsonurl, allLeft, allTop, textareaWith);
+    </script>
 </body>
 </hmtl>
