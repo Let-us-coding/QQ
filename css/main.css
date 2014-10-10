@@ -1,0 +1,119 @@
+.u-poster{
+	margin: 40px;
+	width: 534px;
+	height: 70px;
+	background-color: #DFFDFF;
+}
+.u-poster-bd{
+	height: 70px;
+	width: 534px;
+	border:1px solid #0FA3DB;
+	position: relative;
+}
+#u-input{
+	height: 70px;
+	width: 464px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	padding:5px;
+	background-color: transparent;
+	resize:none;
+}
+.u-poster-attach-side{
+	width: 70px;
+	height: 70px;
+	background-color: #1D8BA7;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+	line-height: 68px;
+}
+.icon-camera{
+	font-size: 2em;
+	color: #fff;
+}
+.u-poster-attach-ft i{
+	font-size: 1.4em;
+	color: #8D917D;
+	float: left;
+}
+.u-poster-attach-ft i:hover{
+	cursor: pointer;
+	color: #24AADD;
+}
+.u-poster-attach-ft{
+	line-height: 39px;
+}
+.u-poster-sub{
+	float: right;
+	position: relative;
+	top: 3px;
+	right: 1px;
+}
+.u-poster-submit{
+	width: 68px;
+	background-color: #1D8BA7;
+}
+.u-poster-submit:hover{
+	background-color:  #29AAB8;
+}
+.u-poster-ft{
+	height: 39px;
+	width: 534px;
+	background-color: #DFFDFF;
+	border-left:1px solid #0FA3DB;
+	border-right:1px solid #0FA3DB;
+	border-bottom:1px solid #0FA3DB;
+	display: none;
+}
+.u-poster-attach-side:hover,.u-poster-attach-camera-1:hover,.u-poster-attach-camera-2:hover{
+	cursor: pointer;
+	background-color: #29AAB8;
+}
+.u-poster-attach-camera{
+	width: 120px;
+	height: 70px;
+	background-color: #1D8BA7;
+	position: absolute;
+	left: 435px;
+	top: 69px;
+	z-index: 1000;
+	text-align: center;
+	line-height: 60px;
+	display: none;
+}
+.u-poster-attach-camera-1{
+	width: 60px;
+	height: 70px;
+	border-right:1px solid #86DEFF;
+	float: left;
+}
+.u-poster-attach-camera-2{
+	width: 60px;
+	height: 70px;
+	float: left;
+}
+.u-poster-attach-camera i{
+	font-size: 1.7em;
+	color: #fff;
+}
+.u-poster-attach-camera span{
+	color: #fff;
+	position: relative;
+	top: -40px;
+	font-size: 0.8em;
+	font-weight: lighter;
+}
+.u-poster-attach-camera-2 span{
+	left:1px;
+}
+i.icon-desktop{
+	margin-left: -7px;
+	font-size: 1.5em;
+}
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;} 
+.qqFace table td{padding:0px;} 
+.qqFace table td img{cursor:pointer;border:1px #fff solid;} 
+.qqFace table td img:hover{border:1px #0066cc solid;} 
+.u-show{width:680px; height:100px;margin:20px;border: 1px solid #DDD;}
